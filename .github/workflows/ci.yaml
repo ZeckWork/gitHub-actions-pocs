@@ -22,3 +22,4 @@ jobs:
         uses: ZeckWork/image-actions@zeckwork/diff-files
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
+          onlyImagesInPR: true
