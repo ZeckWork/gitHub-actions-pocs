@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Compress Images
-        uses: ZeckWork/image-actions@zeckwork/diff-files
+        uses: calibreapp/image-actions@main
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           onlyImagesInPR: true
