@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Compress Images
-        uses: ZeckWork/compress-images@v2
+        uses: ZeckWork/compress-images@v2?random=${{ github.run_id }}
 
       # - name: Compress Images
       #   uses: calibreapp/image-actions@main
